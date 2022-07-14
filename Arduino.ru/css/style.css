@@ -1,0 +1,35 @@
+body{
+	font-size: 18px;
+}
+
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: blue;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.navbar-toggler{
+	background:#fff !important;
+}
+.form-control{
+	max-width: 500px;
+}
+
+.nav-link.disabled{
+	color: silver;
+}
+.card_s:hover{
+	border: 2px solid rgba(0,0,0,.255);
+}
+
+.nav_text{
+	margin-top: 12px;
+}
